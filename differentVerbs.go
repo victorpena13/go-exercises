@@ -14,4 +14,12 @@ fmt.Printf("This value's type is %T.", quote)
 votingAge := 21
 fmt.Printf("You must be %d years old to vote.", votingAge)
 //Result: You must be 21 years old to vote.
+
+gpa := 3.8
+fmt.Printf("You're averaging: %f.", gpa)
+//Result: You're averaging 3.800000.
+
+gpa := 3.8
+fmt.Printf("You're averaging: %.2f.", gpa)
+//Result: You're averaging 3.80
 }
