@@ -7,4 +7,6 @@ func main() {
 	var writer string
 	var artist string
 	var title string
+
+	  fmt.Println(title, "written by", writer, "drawn by", artist, "published by", publisher, "year:", year)
 }
