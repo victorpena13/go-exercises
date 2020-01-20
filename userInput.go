@@ -3,15 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("How are you doing?")
+	fmt.Println("How have you been?")
 
-	var response string
-	fmt.Scan(&response)
+	var response1 string
+	var response2 string
+	fmt.Scan(&response1)
+	fmt.Scan(&response2)
 
-	fmt.Println("I'm %v.", response)
-	//result if user types "good"
-	//I'm good
-	//result if user types "not bad"
-	//I'm not
+	fmt.Println("You know, I am %v %v", response1, response2)
 }
 
