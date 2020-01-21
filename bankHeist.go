@@ -14,5 +14,9 @@ func main() {
 	eludedGuards := rand.Intn(100)
 
 	fmt.Println(eludedGuards)
-	fmt.Println(isHeistOn)
+
+	if (eludedGuards >= 50) {
+		fmt.Println("Looks like You've managed to make it past the guards.  Good Job, but Remember,
+			this is the first step.")
+	}
 }
