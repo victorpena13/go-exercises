@@ -22,9 +22,9 @@ func main() {
 // switch statement
   
 	amountStolen := 50000
-	numOfThieves := 5
+	// numOfThieves := 5
 
-	switch numOfThieves {
+	switch numOfThieves := 5; numOfThieves {
 	case 1:
 		fmt.Println("I'll take all $", amountStolen)
 	case 2:
