@@ -19,8 +19,7 @@ func main() {
 		fmt.Println("Looks like You've managed to make it past the guards.  Good Job, but Remember, this is the first step.")
 	} else {
 		isHeistOn := false
-		fmt.Println("Plan a better disguise")
-		fmt.Println(isHeistOn)
+		fmt.Println(isHeistOn, "Plan a better disguise")
 	}
 
 	openedVault := rand.Intn(100)
@@ -29,5 +28,28 @@ func main() {
 		fmt.Println("Grand and GO!")
 	}
 
-	fmt.Println("isHeistOn is currently:", isHeistOn)
-}
+	leftSafely := rand.Intn(5)
+
+	if (isHeistOn == true) {
+		switch leftSafely {
+		case 0:
+			isHeistOn := false
+			fmt.Println("isHeistOn:", isHeistOn)
+		case 1:
+			isHeistOn := false
+			fmt.Println(isHeistOn, "turns out vault doors don't open from the inside...")
+		case 2:
+			isHeistOn := false
+			fmt.Println(isHeistOn, "Cops busted you!")
+		case 3: 
+			isHeistOn := false
+			fmt.Println(isHeistOn, "You were ratted out")
+		case 4: 
+			isHeistOn := false
+			fmt.Println(isHeistOn, "4 means you lose")
+		default:
+			fmt.Println("Start the getaway car!")
+		}
+	}
+
+w}
