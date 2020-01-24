@@ -5,9 +5,7 @@ import "fmt"
 // As a parameter
 func computeMarsYears(earthYears int) int {
   // Remove earthYears definition within marsYear
-  earthYears := 30
   
-  earthDays := earthYears * 365
   marsYears := earthDays / 687
   return marsYears
 }
