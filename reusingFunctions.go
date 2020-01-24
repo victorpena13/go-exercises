@@ -6,7 +6,7 @@ import (
 
 // Define specialComputation() here
 func specialComputation(x float64) float64 {
-	return math.Log2(math.Sqrt(math.Tanh(x)))
+	return math.Log2(math.Sqrt(math.Tan(x)))
 }
 
 func main() {
