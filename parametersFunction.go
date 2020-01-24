@@ -2,10 +2,11 @@ package main
 import "fmt"
 
 // Update marsYear so that it takes earthYears
-// As a parameter
+// as an int parameter
 func computeMarsYears(earthYears int) int {
   // Remove earthYears definition within marsYear
   
+  earthDays := earthYears * 365
   marsYears := earthDays / 687
   return marsYears
 }
@@ -13,7 +14,7 @@ func computeMarsYears(earthYears int) int {
 func main() {
   myAge := 25
   
-  // Call `marsYear` with `myAge`
-  myMartianAge := computeMarsYears()
+  // Call computeMarsYears() with myAge
+  myMartianAge := computeMarsYears(myAge)
   fmt.Println(myMartianAge)
 }
