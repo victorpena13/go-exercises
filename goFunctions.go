@@ -23,6 +23,7 @@ func calculateFuel(planet string) int {
   default:
   	fuel = 0
   }
+  return fuel
 }
 
 // Create the function greetPlanet() here
