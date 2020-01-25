@@ -4,6 +4,9 @@ import "fmt"
 
 // Create the function fuelGauge() here
 
+func fuelGauge(fuel int) {
+  fmt.Println("Fuel remaining: ", fuel)
+}
 
 // Create the function calculateFuel() here
 
