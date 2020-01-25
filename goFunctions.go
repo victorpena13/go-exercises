@@ -12,9 +12,12 @@ func fuelGauge(fuel int) {
 
 func calculateFuel(planet string) int {
   //this wil be the amount of fuel needed to fly to that planet
+  var fuel int
 }
 
 // Create the function greetPlanet() here
+
+
 
 
 // Create the function cantFly() here
