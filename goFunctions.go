@@ -10,6 +10,9 @@ func fuelGauge(fuel int) {
 
 // Create the function calculateFuel() here
 
+func calculateFuel(planet string) int {
+  //this wil be the amount of fuel needed to fly to that planet
+}
 
 // Create the function greetPlanet() here
 
